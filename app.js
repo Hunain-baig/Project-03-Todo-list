@@ -45,3 +45,6 @@ function deletedall(i){
     todo.splice(i)
     rendertodo()
 }
+
+
+
