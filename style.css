@@ -1,0 +1,55 @@
+* {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(100, 43, 115, 1) 0%,
+    rgba(4, 0, 4, 1) 90%
+  );
+}
+
+h1 {
+  margin-left: 35px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  margin-left: 10px;
+  font-size: 19px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+}
+
+input {
+  margin-left: 15px;
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(249, 249, 249);
+}
+
+input:hover {
+  background-color: rgb(249, 249, 249);
+}
+
+li{
+    font-size: 30px;
+}
+
+button.del_btn{
+    font-size: 15px;
+}
+
+button.edit_btn{
+    font-size: 15px;
+}
+
